@@ -43,7 +43,7 @@ rusqlite = { version = "0.30", features = ["bundled"] }
 tokio = { version = "1.35", features = ["full"], optional = true }
 
 # HTTP server (for vault server)
-axum = { version = "0.7", optional = true }
+axum = { version = "0.8", optional = true }
 tower-http = { version = "0.5", features = ["cors", "trace"], optional = true }
 
 # HTTP client (for vault client)
