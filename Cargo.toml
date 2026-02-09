@@ -61,7 +61,7 @@ anyhow = "1.0"
 chrono = { version = "0.4", features = ["serde"] }
 
 # CLI
-clap = { version = "4.4", features = ["derive"], optional = true }
+clap = { version = "4.5", features = ["derive"], optional = true }
 
 # Privox integration (when published to crates.io)
 # privox = { version = "0.1", optional = true }
